@@ -16,7 +16,7 @@ pip install -r requirements.txt
 pip install -e .
 ```
 
-This method was tested and developed on CUDA-enabled GPUs (linux OS) with CUDA = 11.7 using the install below. 
+Installation will require several minutes. This method was tested and developed on CUDA-enabled GPUs (linux OS) with CUDA = 11.7 using the install below. 
 
 ```conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.7 -c pytorch -c nvidia```
 
