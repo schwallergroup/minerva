@@ -1,5 +1,5 @@
 # Minerva
-> Machine Intelligence for Efficient Large-Scale Reaction Optimisation with Automation 
+> Highly parallel optimisation of chemical reactions through automation and machine intelligenc 
 
 ```minerva``` is a repository containing code for the application of scalable, multi-objective, batched reaction optimisation described in the manuscript associated with this work. From a user-defined space of reaction conditions, ```minerva``` initialises the optimisation campaign with quasi-random Sobol sampling, and performs large-scale batch optimisation of chemical reactions. ```minerva``` has been deployed experimentally with search spaces of ~100,000 with batch sizes of 96 in High-Throughput Experimentation.
 
@@ -28,5 +28,19 @@ In the `scripts` directory, we include execution scripts used to run optimisatio
 
 All HTE experimental data (1632 reactions) collected from experiments described in the manuscript are available in the `experimental_campaigns/experiments/publication/SURF_files` directory in the Simple User-Friendly Reaction Format (SURF).
 
+## Citation
+
+```
+@article{sin2025highly,
+  title={Highly parallel optimisation of chemical reactions through automation and machine intelligence},
+  author={Sin, Joshua W and Chau, Siu Lun and Burwood, Ryan P and P{\"u}ntener, Kurt and Bigler, Raphael and Schwaller, Philippe},
+  journal={Nature Communications},
+  volume={16},
+  number={1},
+  pages={6464},
+  year={2025},
+  publisher={Nature Publishing Group UK London}
+}
+```
 
 
